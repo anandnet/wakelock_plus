@@ -33,12 +33,28 @@ automatically.
 | Windows  |            ✅            |
 | Linux    |            ✅            |
 
-## Platform Requirements
+## Framework and Platform Requirements
 
+* Flutter
+  - Flutter SDK >=3.22.0
+  - Dart SDK >=3.4.0
 * Android
+  - Android API 21 (Lollipop) or higher
   - Java 17 or higher
   - Android Gradle Plugin >=8.12.1
   - Gradle wrapper >=8.13
+* iOS
+  - iOS 12.0 or higher
+* macOS
+  - macOS 10.15 or higher
+* Windows
+  - Windows 7 or higher
+* Linux
+  - gtk+ >= 3.0
+  - glib >= 2.0
+  - gio >= 2.0
+* Web
+  - Modern browsers
 
 
 ## Usage
