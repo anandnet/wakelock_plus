@@ -1,3 +1,15 @@
+## [1.4.0]
+* [#107](https://github.com/fluttercommunity/wakelock_plus/pull/107): Flutter 3.35 upgrade. Thanks [diegotori](https://github.com/diegotori).
+* **BREAKING CHANGES**:
+  - Dart
+    * Library now requires Dart version `3.4` or higher.
+    * Library now requires Flutter version `3.22` or higher.
+  - Android
+    * Library now requires Android API 21 (Lollipop) or higher
+    * Library now requires Java 17 or higher
+    * Library now requires Android Gradle Plugin >=8.12.1
+    * Library now requires Gradle wrapper >=8.13
+
 ## [1.3.3]
 * [#104](https://github.com/fluttercommunity/wakelock_plus/pull/104): Add support SPM for macos. Thanks [Carapacik](https://github.com/Carapacik).
 
