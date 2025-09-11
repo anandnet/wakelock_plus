@@ -41,6 +41,11 @@ jobs:
       - name: Check format
         working-directory: ${{ matrix.package }}
         run: dart format . --set-exit-if-changed
+        # Ignoring formatting issues for now, as we're still supporting versions of Flutter below
+        # 3.29.
+        # Once the minimum supported version is 3.29 or later, we can enforce this on more recent
+        # versions.
+        continue-on-error: true
       - run: flutter analyze
         working-directory: ${{ matrix.package }}
 
