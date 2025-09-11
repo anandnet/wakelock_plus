@@ -46,7 +46,6 @@ android {
 
     defaultConfig {
         // Use flutter.minSdkVersion once the minimum supported Flutter version is 3.35 or higher.
-        // For now
         minSdkVersion 21
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
